@@ -21,9 +21,7 @@ go get golang.org/x/tools/cmd/godoc
 ```
 5. Start here: https://golang.org/doc/code.html at "your first program"
 
-Sample Go app 
-
-## Getting started
+## Sample Go app, Getting started
 
 1. Clone this repo using `git clone https://github.com/tokopedia/gosample.git <your-project-name>`.
 
