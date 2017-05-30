@@ -1,3 +1,26 @@
+## Setup Go in OSX
+1. Create Directories
+```
+mkdir $HOME/Go
+mkdir -p $HOME/Go/src/github.com/user
+```
+2. Setup your paths
+```
+export GOPATH=$HOME/Go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+```
+3. Install Go
+```
+brew install go
+```
+4. "go get" the basics
+```
+go get golang.org/x/tools/cmd/godoc
+```
+5. Start here: https://golang.org/doc/code.html at "your first program"
+
 Sample Go app 
 
 ## Getting started
