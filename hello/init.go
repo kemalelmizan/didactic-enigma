@@ -37,7 +37,7 @@ func NewHelloWorldModule() *HelloWorldModule {
 
 	return &HelloWorldModule{
 		cfg:       &cfg,
-		something: "John Doe",
+		something: "John Doer",
 		stats:     expvar.NewInt("rpsStats"),
 	}
 

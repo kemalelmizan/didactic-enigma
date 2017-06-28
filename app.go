@@ -2,11 +2,12 @@ package main
 
 import (
 	"flag"
-	"github.com/google/gops/agent"
 	"log"
 	"net/http"
 
-	"github.com/tokopedia/gosample/hello"
+	"github.com/google/gops/agent"
+
+	"github.com/kemalelmizan/didactic-enigma/hello"
 	"gopkg.in/tokopedia/grace.v1"
 	"gopkg.in/tokopedia/logging.v1"
 )
